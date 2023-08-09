@@ -2,7 +2,10 @@ import fs from "fs";
 import os from "os";
 
 const cacheConfigurationParameters = (parameters) => {
-  const existingVariables = fs.readFileSync("../.env", "utf8").split(os.EOL);
+  const existingVariables = fs
+    .readFileSync("../.env", "utf8")
+    .split(os.EOL)
+    .filter((variable) => variable != "");
 
   parameters.forEach((param) => {
     const splitParamName = param.Name.trim().split("/");
@@ -13,7 +16,10 @@ const cacheConfigurationParameters = (parameters) => {
     existingVariables.push(variable);
   });
 
-  fs.writeFileSync("../.env", existingVariables.join(os.EOL));
+  const newVariables = [...new Set(existingVariables)];
+  console.log("existingVariables", newVariables);
+
+  fs.writeFileSync("../.env", newVariables.join(os.EOL));
 };
 
 export default { cacheConfigurationParameters };

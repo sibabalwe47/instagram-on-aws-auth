@@ -1,27 +1,19 @@
 import {
   CognitoIdentityProviderClient,
-  ChangePasswordCommand,
+  GlobalSignOutCommand,
 } from "@aws-sdk/client-cognito-identity-provider";
 
 export const COGNITO_CLIENT = new CognitoIdentityProviderClient({
   region: process.env.ENVIRONMENT_REGION,
 });
 
-export const changePasswordHandler = async (
-  accessToken,
-  previousPassword,
-  newPassword
-) => {
+export const SignOutHandler = async (accessToken) => {
   try {
     const result = await COGNITO_CLIENT.send(
-      new ChangePasswordCommand({
-        ClientId: process.env.USERPOOL_CLIENT_ID,
-        PreviousPassword: previousPassword,
-        ProposedPassword: newPassword,
+      new GlobalSignOutCommand({
         AccessToken: accessToken,
       })
     );
-
     return {
       statusCode: result["$metadata"].httpStatusCode,
       success: true,

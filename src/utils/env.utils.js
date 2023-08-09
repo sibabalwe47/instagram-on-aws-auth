@@ -17,7 +17,6 @@ const cacheConfigurationParameters = (parameters) => {
   });
 
   const newVariables = [...new Set(existingVariables)];
-  console.log("existingVariables", newVariables);
 
   fs.writeFileSync("../.env", newVariables.join(os.EOL));
 };

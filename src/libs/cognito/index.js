@@ -5,6 +5,7 @@ import { ResendConfirmationCodeHandler } from "./resend-code.js";
 import { forgotPasswordHandler } from "./forgot-password.js";
 import { resetPasswordHandler } from "./reset-password.js";
 import { changePasswordHandler } from "./change-password.js";
+import { SignOutHandler } from "./signOut.js";
 
 export {
   signUpHandler,
@@ -14,4 +15,5 @@ export {
   forgotPasswordHandler,
   resetPasswordHandler,
   changePasswordHandler,
+  SignOutHandler,
 };

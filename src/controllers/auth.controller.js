@@ -1,6 +1,7 @@
 //import { signUpHandler } from "../libs/cognito/signup.js";
 
 import * as authProvider from "../libs/cognito/index.js";
+import * as sessionProvider from "../libs/dynamodb/index.js";
 
 const signUp = async (req, res) => {
   try {
@@ -24,6 +25,9 @@ const signIn = async (req, res) => {
     const { email, password } = req.body;
 
     const result = await authProvider.signInHandler(email, password);
+
+    // Generate a session item in dynamo db
+    const generateSession = await sessionProvider.putItemHandler(result);
 
     res.status(result.statusCode).json({
       userId: result.userId,
@@ -115,7 +119,6 @@ const resetPassword = async (req, res) => {
 };
 
 const changePassword = async (req, res) => {
-  console.log("Change password::");
   try {
     const { accessToken, previousPassword, newPassword } = req.body;
 
@@ -127,6 +130,61 @@ const changePassword = async (req, res) => {
 
     res.status(result.statusCode).json({
       message: "Password changed successfully",
+    });
+  } catch (error) {
+    res.status(error.statusCode).json({
+      type: error.type,
+      message: error.message,
+    });
+  }
+};
+
+const validateUserSession = async (req, res) => {
+  try {
+    const { token } = req.body;
+
+    // Gets session in dynamodb
+    const result = await sessionProvider.getItemHandler(token);
+
+    // Check validity
+    const sessionStartTime = result.item.timestamp;
+    const currentTime = new Date();
+    const difference = currentTime - result.item.timestamp;
+    const sessionLength = 1000 * 60 * 60;
+
+    if (Math.abs(difference) > sessionLength) {
+      return res.status(401).json({
+        success: false,
+        type: "InvalidTokenException",
+        message: "The token has expired, please login again.",
+      });
+    }
+
+    res.status(200).json({
+      userId: result.item.userId,
+      email: result.item.email,
+    });
+  } catch (error) {
+    console.log("Error:", error);
+    res.status(error.statusCode).json({
+      type: error.type,
+      message: error.message,
+    });
+  }
+};
+
+const signOut = async (req, res) => {
+  try {
+    const { accessToken } = req.body;
+
+    const signoutAction = await authProvider.SignOutHandler(accessToken);
+
+    const removeExistingSessions = await sessionProvider.getItemHandler(
+      accessToken
+    );
+
+    res.status(signoutAction.statusCode).json({
+      message: "OK",
     });
   } catch (error) {
     console.log("Error:", error);
@@ -145,4 +203,6 @@ export default {
   forgotPassword,
   resetPassword,
   changePassword,
+  validateUserSession,
+  signOut,
 };

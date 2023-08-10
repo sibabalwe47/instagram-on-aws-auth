@@ -9,7 +9,7 @@ permissions:
 env:
   AWS_ACCESS_KEY_ID:
   AWS_SECRET_ACCESS_KEY:
-  AWS_REGION:
+  AWS_DEFAULT_REGION: "eu-east-1"
 
 jobs:
   push_to_docker_hub:
@@ -35,4 +35,10 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws-auth:latest
+
+      - name: push to ECR
+        run: apk add aws-cli \
+          aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 403052689884.dkr.ecr.eu-west-1.amazonaws.com/instagram-on-aws-auth
+          docker build -t 403052689884.dkr.ecr.eu-west-1.amazonaws.com/instagram-on-aws-auth .
+          docker push 403052689884.dkr.ecr.eu-west-1.amazonaws.com/instagram-on-aws-auth:latest

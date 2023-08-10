@@ -1,0 +1,16 @@
+name: Authentication microservice pipeline.
+on: [push]
+permissions:
+  contents: read
+
+env:
+  AWS_ACCESS_KEY_ID:
+  AWS_SECRET_ACCESS_KEY:
+  AWS_REGION:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        run: echo "Test pipeline..."

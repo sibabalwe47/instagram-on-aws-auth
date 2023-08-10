@@ -1,5 +1,3 @@
 node_modules
-
-command
-
 docker-compose.yml
+*.txt

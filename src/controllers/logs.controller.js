@@ -3,9 +3,9 @@ import * as Logger from "../utils/logger.js";
 export const getLogs = async (req, res) => {
   try {
     const result = Logger.readLog();
-    response.set("Content-Type", "text/plain");
-    return response.send(result);
+    res.set("Content-Type", "text/plain");
+    return res.send(result);
   } catch (e) {
-    return response.sendStatus(500);
+    return res.sendStatus(500);
   }
 };

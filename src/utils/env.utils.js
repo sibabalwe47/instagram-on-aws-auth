@@ -42,6 +42,11 @@ const cacheConfigurationParameters = (parameters) => {
         source: "Writing .env file",
         error: err,
       });
+    } else {
+      Logger.writeLog({
+        source: "Writing .env file",
+        error: err,
+      });
     }
   });
 };

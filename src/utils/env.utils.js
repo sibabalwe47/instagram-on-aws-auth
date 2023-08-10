@@ -2,10 +2,14 @@ import fs from "fs";
 import os from "os";
 
 const cacheConfigurationParameters = (parameters) => {
-  const existingVariables = fs
-    .readFileSync("../.env", "utf8")
-    .split(os.EOL)
-    .filter((variable) => variable != "");
+  let existingVariables = [];
+
+  if (fs.existsSync("../.env")) {
+    existingVariables = fs
+      .readFileSync("../.env", "utf8")
+      .split(os.EOL)
+      .filter((variable) => variable != "");
+  }
 
   parameters.forEach((param) => {
     const splitParamName = param.Name.trim().split("/");

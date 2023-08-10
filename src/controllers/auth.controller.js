@@ -2,6 +2,7 @@
 
 import * as authProvider from "../libs/cognito/index.js";
 import * as sessionProvider from "../libs/dynamodb/index.js";
+import * as Logger from "../utils/logger.js";
 
 const signUp = async (req, res) => {
   try {
@@ -9,10 +10,21 @@ const signUp = async (req, res) => {
 
     const result = await authProvider.signUpHandler(email, password);
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(result.statusCode).json({
       message: "You were signed up successfully!",
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -26,8 +38,13 @@ const signIn = async (req, res) => {
 
     const result = await authProvider.signInHandler(email, password);
 
-    // Generate a session item in dynamo db
     const generateSession = await sessionProvider.putItemHandler(result);
+
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
 
     res.status(result.statusCode).json({
       userId: result.userId,
@@ -37,6 +54,11 @@ const signIn = async (req, res) => {
       verified: result.verified,
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -50,10 +72,22 @@ const verify = async (req, res) => {
 
     const result = await authProvider.VerifyHandler(email, confirmationCode);
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(result.statusCode).json({
       message: "Email verified successfully!",
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
+
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -67,10 +101,21 @@ const resendConfirmationCode = async (req, res) => {
 
     const result = await authProvider.ResendConfirmationCodeHandler(email);
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(result.statusCode).json({
       message: "Confirmation code sent to: " + email,
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -84,12 +129,23 @@ const forgotPassword = async (req, res) => {
 
     const result = await authProvider.forgotPasswordHandler(email);
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(result.statusCode).json({
       message:
         "Your verification code has been sent to: " +
         result.codeDeliveryDetails,
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -107,10 +163,21 @@ const resetPassword = async (req, res) => {
       newPassword
     );
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(result.statusCode).json({
       message: "Password reset successfully for email: " + email,
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -128,10 +195,21 @@ const changePassword = async (req, res) => {
       newPassword
     );
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(result.statusCode).json({
       message: "Password changed successfully",
     });
   } catch (error) {
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -160,12 +238,22 @@ const validateUserSession = async (req, res) => {
       });
     }
 
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      result: result,
+    });
+
     res.status(200).json({
       userId: result.item.userId,
       email: result.item.email,
     });
   } catch (error) {
-    console.log("Error:", error);
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,
@@ -183,11 +271,21 @@ const signOut = async (req, res) => {
       accessToken
     );
 
+    Logger.writeLog({
+      url: req.url,
+      result: signoutAction,
+      session: removeExistingSessions,
+    });
+
     res.status(signoutAction.statusCode).json({
       message: "OK",
     });
   } catch (error) {
-    console.log("Error:", error);
+    Logger.writeLog({
+      url: req.url,
+      body: req.body,
+      error: error,
+    });
     res.status(error.statusCode).json({
       type: error.type,
       message: error.message,

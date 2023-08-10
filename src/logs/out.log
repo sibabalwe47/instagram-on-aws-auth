@@ -1,0 +1,234 @@
+[2023-08-10T05:50:02.011] [INFO] default - Time requested at 05:50:02
+[2023-08-10T05:50:02.012] [INFO] default - {
+  statusCode: 200,
+  verified: true,
+  userId: '64f884f8-b041-708b-8604-0306f8939592',
+  email: 'sibabalwe47@gmail.com',
+  token: 'eyJraWQiOiIrbTl0RmxHZUN4ZEUyXC9zc241NFwvVTNIZlhNMmlKaG5DcHdtVVZJQlFySEU9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2NGY4ODRmOC1iMDQxLTcwOGItODYwNC0wMzA2Zjg5Mzk1OTIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8zd08xWlJubmQiLCJjbGllbnRfaWQiOiI0aHM4NGZwcmVhbHY1YXZwbW9kODVmYWo1MCIsIm9yaWdpbl9qdGkiOiIxNmMwYTYzOS05OGU0LTQ5ZGItYTMyYi0wODYyZjdkZDhkZjYiLCJldmVudF9pZCI6IjIzODU1YTNjLThhNTEtNDZkMS04ZDhhLTBlZWI3OWE3NjIyMCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2OTE2MzkzOTUsImV4cCI6MTY5MTY0Mjk5NSwiaWF0IjoxNjkxNjM5Mzk1LCJqdGkiOiIyYmNhZWViMS0xMDVjLTQwMGMtYTY5Yy1jZGIyODI0YWU4ZmMiLCJ1c2VybmFtZSI6IjY0Zjg4NGY4LWIwNDEtNzA4Yi04NjA0LTAzMDZmODkzOTU5MiJ9.zFkrEjl4mIDFV7YJknjllN6Ksjv2fQGCWwGBIoXaCB7IUxTGIPJUVdOKwEvsihRxgxQmhJu8dgtfKF_po2BWuJVpj6yMHz66EeljzNKDIn4rDwIB3vgn9lWlddDfZeABZKRT73yFj_XbIosd-3CnlhfzPFJE8B891NYUy6SzVSZnf5bPUZZogHcr-_JEE8x2pCaW7PojgqrtRs8_te0Oe2oPn5SmjTgDn5It7JC6wg29hRVS-HWpNXYvxgd3OOrTFcE1RLG7YHqbio1E7HyeSW_5Gfpva8Jw4-6qeVT4-yNABkTvKUDIBoRZmPFiToiZwm8F0oNrP5TugBw_yyZ-9g',
+  refreshToken: 'eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.mXofZKIPKpjPhgC8NYfRq97RXRQ2eGjDmFQvGhxGKGrviJhKFkOj1LmCBAF97lPkOk5jF40KPojpqKp5NokjGhbFSDd7V7hCQnU6p5nZ3f7YR3ZiQItEyGj2K-rpFLIqxFMD7T_S5vS2s6Se9joMzv7QIteqBLW16YGhCtYDS32PeEC0URykYd32QjJtOOtX73gCr6HvOApbbg6gkhd-Lt-4Z-1Uxx3T5oM5TIFhuP3EKRvkiyMnx-NO221_USbfdqMyqzz95LL6_U1Wx_2VlTS_F6fQLhGGPfUeds4U--KEMbNzqLx-7K-6aUOSuOa4G36Ug2m6izVRLGgdAv9a1A.tXljyc7IPfD0vk41.B7TOhZyhJRthLHnCzWzdBhadtammp6NFZ1q_MOwyQGrsxVsK6Aw5K9Q__BEpJzD3qJRa-P9GLeL2JZp2GbLbN9F2tX3EHrEq1E4b0Cd7JS4PBQ5hjmrTxwlFakfThjwtyj3qyuiwHbwKojZ-uhToGMigIBlV2m2S3ZZkPbQjgAsB4ikZ04hTVgF4i_ljytNRVPiU1FSobyexEJb_EzZyOQ7UvfJ9ae__Oz01rkFJSUuT8dnFkBMqVCz92vfds1CGeByCGFFpdTmzhdvSISp5gcENt-edqi7Hhq_rxfMiI5P3bPeafu4U8ybWvhbmkQ1CHVklg1ovJ02oK0VM2RpwbsPJEPpGQU-xddikGCm5oVhJbAzoTjpCl-YRHdwsolhctAMk_7HMerTqoR12HkqMzz2ZoATVlIVO1PLZtW3udzysBgLkkIhs6FtZz5sjVuVSBCfNO7m6h2cZKoX37HlX2dLWriJFESx17qGXnr3_TjJPzakltxTxSDx-d5T1BTr3hhfnxyN6JAHUUKrjcT_mKKkIR5qf2_FQJ5-9LB5dDF8OcJqAhTPsxTmACru4JS_rJ4gJ3HI-pYUy5oVy_D5rV6censIISYFmPYp2Yl7GuZffmKDkL7Ku-cKYiVIG_dFDk5FNOr4jvUBpxEYc7cWyIiws6uQXnb5NDJv1n5KnBm0gc5m7u8iTQB9NDczN4QYAzKeQ4D9Kc6vWEXDzn53m9WXU87AbqkGvBj-o-IvZtLMWstutZrTh85eu9DjpIL4DncYbguYKNn0daglqc7xpspB9nC6XXOy_oUs31EkosHdUG_fkvq81CnckoZGK_UmaB2KDDI1dOeHFzfGV_0FrMRYHkH4dD0tIuIkO85LsE5pmJYWcTsEYUcoEktRZP1R_ogDN9NxtncA4FE8AYojDihphjWTC4gABP_1CxVyYHPgU--cRwi92cM0PYpC14B9paqsTX7Yc9rlnITeg5YpPJwm7sJWrfRnYKgpOqaV724r1C5SjF-0FeD6qKpyVk85ahxyFkWSXOjb4I1PBvWYR3lAzp2vXd9Hlu0mJto8jSKMVLwIYxFzTBrHZ0EmazEI2RR6yxuwhp9EJ40AYQHrwtkbT1W3fur37CkJ1LOzB1cqvuv7XeOCQFIitSIXvxtR4qhLXQk-Gl_XhHcUMulv0rSsldFbJxyz4rMVQxavXyqgfooCndFhaB324-JFhWPbKDAfhJmIOKh15FdisfruxPQNSRUWQhFXzH49jXBbwpnpfvyzVT7Jj6N8xenP-Amf0ec7jyYbP8lT0LNmCvvo6yWe86xPw2Cxv5jZxpMbr41nFyOFpSo51YPEQnA.VPIK31qj4ufgKGADR_WsFg'
+}
+[2023-08-10T05:53:12.923] [INFO] default - Time requested at 05:53:12
+[2023-08-10T05:53:12.924] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:53:28.912] [INFO] default - Time requested at 05:53:28
+[2023-08-10T05:53:28.915] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:54:46.757] [INFO] default - Time requested at 05:54:46
+[2023-08-10T05:54:46.759] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:55:02.544] [INFO] default - Time requested at 05:55:02
+[2023-08-10T05:55:02.547] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:55:08.619] [INFO] default - Time requested at 05:55:08
+[2023-08-10T05:55:08.620] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:55:21.270] [INFO] default - Time requested at 05:55:21
+[2023-08-10T05:55:21.272] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:55:27.665] [INFO] default - Time requested at 05:55:27
+[2023-08-10T05:55:27.666] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:55:56.715] [INFO] default - Time requested at 05:55:56
+[2023-08-10T05:55:56.716] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:03.646] [INFO] default - Time requested at 05:56:03
+[2023-08-10T05:56:03.648] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:07.769] [INFO] default - Time requested at 05:56:07
+[2023-08-10T05:56:07.771] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:10.820] [INFO] default - Time requested at 05:56:10
+[2023-08-10T05:56:10.822] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:31.073] [INFO] default - Time requested at 05:56:31
+[2023-08-10T05:56:31.075] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:50.860] [INFO] default - Time requested at 05:56:50
+[2023-08-10T05:56:50.861] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:54.514] [INFO] default - Time requested at 05:56:54
+[2023-08-10T05:56:54.522] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:56:59.622] [INFO] default - Time requested at 05:56:59
+[2023-08-10T05:56:59.623] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:57:03.221] [INFO] default - Time requested at 05:57:03
+[2023-08-10T05:57:03.222] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:57:06.670] [INFO] default - Time requested at 05:57:06
+[2023-08-10T05:57:06.672] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:57:10.088] [INFO] default - Time requested at 05:57:10
+[2023-08-10T05:57:10.089] [INFO] default - Server running on PORT:3000
+[2023-08-10T05:57:14.857] [INFO] default - Time requested at 05:57:14
+[2023-08-10T05:57:14.859] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:04:31.414] [INFO] default - Time requested at 06:04:31
+[2023-08-10T06:04:31.416] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:04:58.389] [INFO] default - Time requested at 06:04:58
+[2023-08-10T06:04:58.391] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:05:08.551] [INFO] default - Time requested at 06:05:08
+[2023-08-10T06:05:08.552] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:05:16.177] [INFO] default - Time requested at 06:05:16
+[2023-08-10T06:05:16.177] [INFO] default - {
+  url: '/sign-in',
+  result: {
+    statusCode: 200,
+    verified: true,
+    userId: '64f884f8-b041-708b-8604-0306f8939592',
+    email: 'sibabalwe47@gmail.com',
+    token: 'eyJraWQiOiIrbTl0RmxHZUN4ZEUyXC9zc241NFwvVTNIZlhNMmlKaG5DcHdtVVZJQlFySEU9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2NGY4ODRmOC1iMDQxLTcwOGItODYwNC0wMzA2Zjg5Mzk1OTIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8zd08xWlJubmQiLCJjbGllbnRfaWQiOiI0aHM4NGZwcmVhbHY1YXZwbW9kODVmYWo1MCIsIm9yaWdpbl9qdGkiOiI5OWIyNjhiMS1jYTYxLTQ1NzItODk3Yy1kM2M5NTY1ZDViNmMiLCJldmVudF9pZCI6Ijk5OWQwMzlhLTExZTYtNDk5Mi1iNzAxLThhNWE2ZGNjNDk1NCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2OTE2NDAzMTAsImV4cCI6MTY5MTY0MzkxMCwiaWF0IjoxNjkxNjQwMzEwLCJqdGkiOiIyMDE2ZjJhYS1kNzFiLTRhZDQtYTI1Ni0zN2ZlZmZlNjZhOGUiLCJ1c2VybmFtZSI6IjY0Zjg4NGY4LWIwNDEtNzA4Yi04NjA0LTAzMDZmODkzOTU5MiJ9.te29L8F-5iJ_hPgwzup5TB2bsDV7goRMNm1OM7SkKRyTDnMuxSsczIx-X_jSqvJ0v9-Jp0xMUnZVwLQ8FT3MqqYPHCWubz6nxwxWHTFgUFsxd9Y_VMJsfPYuW3j_SNVdv3og6_VNDKvlqfJCIMFytCwLuzLRXE3kUutY6_KshqEWOhSq_9bLeZPMCg-TV6gO5X6wUUiGs2FvcaiIoyBaUq-xAw-glr9trP8fDv5LVXear7ltiPl9YfeE9KmhR5R5zOwcFh60_fs2IxZhA5oOF3yLOrfja3Wi9bZc3dkCcXZz9zEIFJgflu0qVEnwhuFqA0dLVBF5NPDiOUnG7-svSw',
+    refreshToken: 'eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.Hu9Sm-SUcYh3QaAZGaa4Eixp1OEaU8rHMLp10cBuruL0XXRiMZxSWC1O7FkiAbNxWdj8OxNwrRtFGan4A6qJqTnMaxcup2ffjFtjSIb_0wg49abVISJVA5XgLUGV3f9QGDcoNQwSPQ1zRS9lbl0equsSxNEPqkz4BhM1LJqE0MXOdu6R0z-5sh5ON3bQKOpmWoCm09sWb3MfTgMublA83izwEToUR3BZhVIptwf_Dh3pHGTUy6RFeVx98kACGWaoJt8VE6x2F_g2a1XjyOx87WOPi50n-PqmCV2KbjbuFlTZXllPKiqTrnKp108FBS6b4IlyA4kPCKY1DkNRgBbKeA.J_Vd8eqoG3_fkxHz.S3oIBRQtUE11mYKh8tdPAE9fouEQymBpm0k9MCgCsDG35NPTtOlJi9QxycugWJcmOSAY2EkxTtkKBWv6cNqHDgs-5N7DepROcsEYK7ShaA54B2rb0FWFBe1gsAfK2jDETZxIZmRAF63mGQuXHPCqpHEnZO8cTvSOCx3uQYlqBv8XqB-VQEDV6lJUyHspElOl1H2ZOQZDMn689tz3ahld54UeedKD-K5JN0sS-vgn-hmX4KxeFRn6lAc7OmPRMf6nIpybjZmvQAUaLuRwMQ9CSLKrQAgt7NZ0_hgSlKYhRClSmR5-RQhVZkQWVhQCS4XwOOyer0a9a6z_enW8wGnVQbHyRpZiCYlgFcByBoHj0k0ekW2DuxMpXcVkcytkuwVjDfLpay_spuXnksquyHJx9wgQgMHTH9nN-Anem9u703ZP21hbMk6fwZT_Wqc2llyDl71lx8T3uAVyDRC9h2zOdUOL5FAbKnfGK5k3RU0fW_-hgvLf09P1-9qAfVOm9qoZapUA1zsAWVMQp--D2qZH9AtV4eu11oo97wsBnrt60ak6WpUE-cNoWkYa2oYrlykkh7P2jXZcgCf35FnSR1QG__ycwVbwPSGsQEzY5kfs-h7imC4-k09Yzf-1M1nhJiwcQ9-QAtqFadHPhlfRfjEh6ANCU-VQnIQ233PwaqIOUuQwVsK4tO3niEOB6Iwh3qaY4_3XPS39opDGEe2f4hyE47ywEqjSgRXdb22dBnKzu2AOuDyJlqKtLQpCN9BkDmrV509Qn9c1OW_e64U3hSWZ2Mcy8vSkVUReLjdM8SywOPnG0jWA2MI2yKvdVkDJeZ1VBRdqzrUuhh6whrJlKCM8G02-L_2nRDjQ4pLR94piRE8uKqOqEYPwXMjk3A_LvMaMDDdbMcrgyTWfDGbVXRG2_Hj0Q7Q3_xvYQlSqmynD8sLIBN1VYllRGMKr4J2CY-Elun--fK_x3J9YMGkwQK5LxhVOOvbi0wLtmJ0NLsCo1qLFkglJv90U2IWJtdD_oRZt-jPH78cmHIuHwnAFQlpKrGlp55CtzidlZD6GE22QjUV1j68RvUGPies_MtyOU8qSLW2oygx0Tt2aZd8_8Qjv2B27YZnWVZp8Y74GaSV5UdxFfYX7qDw4CeMZp0zvUq1T_bhxAInZNnXF_7eokngJNiwXSOou_x9NDOMAPtlmO_00Oo_BnKadvBxsCi5BVpmOOv20o9rRq48SNrg4UcTq4LbfLycQKarOHQNd7m1_Sc9yYW5y0RljUpix2zkqFkP9KCjx-1nyxbkxZO9hdvHcMLzXTFeasmyVtpYEXovnC8dFYFpl1LXg-A2Evw.4QthiSOWByK5nC6MLoDLdg'
+  }
+}
+[2023-08-10T06:05:32.399] [INFO] default - Time requested at 06:05:32
+[2023-08-10T06:05:32.400] [INFO] default - {
+  url: '/sign-in',
+  error: {
+    statusCode: 400,
+    message: 'Incorrect username or password.',
+    type: 'NotAuthorizedException'
+  }
+}
+[2023-08-10T06:07:30.978] [INFO] default - Time requested at 06:07:30
+[2023-08-10T06:07:30.980] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:07:42.587] [INFO] default - Time requested at 06:07:42
+[2023-08-10T06:07:42.588] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:07:49.949] [INFO] default - Time requested at 06:07:49
+[2023-08-10T06:07:49.951] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:06.816] [INFO] default - Time requested at 06:08:06
+[2023-08-10T06:08:06.817] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:18.783] [INFO] default - Time requested at 06:08:18
+[2023-08-10T06:08:18.786] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:25.527] [INFO] default - Time requested at 06:08:25
+[2023-08-10T06:08:25.529] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:29.725] [INFO] default - Time requested at 06:08:29
+[2023-08-10T06:08:29.727] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:35.492] [INFO] default - Time requested at 06:08:35
+[2023-08-10T06:08:35.493] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:41.399] [INFO] default - Time requested at 06:08:41
+[2023-08-10T06:08:41.401] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:08:55.888] [INFO] default - Time requested at 06:08:55
+[2023-08-10T06:08:55.890] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:09:03.572] [INFO] default - Time requested at 06:09:03
+[2023-08-10T06:09:03.574] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:09:33.522] [INFO] default - Time requested at 06:09:33
+[2023-08-10T06:09:33.524] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:09:39.873] [INFO] default - Time requested at 06:09:39
+[2023-08-10T06:09:39.874] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:10:46.090] [INFO] default - Time requested at 06:10:46
+[2023-08-10T06:10:46.091] [INFO] default - {
+  url: '/sign-in',
+  result: {
+    statusCode: 200,
+    verified: true,
+    userId: '64f884f8-b041-708b-8604-0306f8939592',
+    email: 'sibabalwe47@gmail.com',
+    token: 'eyJraWQiOiIrbTl0RmxHZUN4ZEUyXC9zc241NFwvVTNIZlhNMmlKaG5DcHdtVVZJQlFySEU9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2NGY4ODRmOC1iMDQxLTcwOGItODYwNC0wMzA2Zjg5Mzk1OTIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8zd08xWlJubmQiLCJjbGllbnRfaWQiOiI0aHM4NGZwcmVhbHY1YXZwbW9kODVmYWo1MCIsIm9yaWdpbl9qdGkiOiIwYWI5NzRhYS01ZjI1LTQ1N2UtOWQzNC1iMjQzOGIwOGQ5YmIiLCJldmVudF9pZCI6IjJmZmVmZTgzLWI5ZjktNGE2MS05YjFiLTZmNzU1NThiYzRlYyIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2OTE2NDA2NDAsImV4cCI6MTY5MTY0NDI0MCwiaWF0IjoxNjkxNjQwNjQwLCJqdGkiOiI3NmY0MzUyYi0wYzBiLTRiNjctOWM4Yy1kNDRmNDk0NWM1N2EiLCJ1c2VybmFtZSI6IjY0Zjg4NGY4LWIwNDEtNzA4Yi04NjA0LTAzMDZmODkzOTU5MiJ9.N_w2ohf3OwPsJ1RbRNNY_AuRNlIiYWbB2I7rXDkXYyRdKEJs0qDy-TUaHEGj-p9MFuP_XKAvl1dX1J_p-chY2PRQuKuF9y0KUzmGhgDuX9NCSwV2psMoESwDEBAwDhQmwoIy6JalB8Zp43sP6Bx65TP4oYA3cwmqUvxHUSlkCJ5INESBUtVxta3AmTxJtSDxkdr5NN3Sb7m9EGK61H3gdKUPrNtyPIoLYVlCg1-2ud1_RFcK62NH9b_-PQUCQA-5-kbaok5LkQVKJLomngP_9DkCz1dB8c5qPvkuL7vYWTqwlbRSLNSH7UkC2rRoUK-z4vl6nhTLNjHgHszvoY6nXA',
+    refreshToken: 'eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.fuFWznout2676TE1KeDQUSEJXxVcDGp_AWoj16dB4B3OYlAPNNNjUGNyS9GsucZpJ4k5s-mXadAdbK_7P5nKwVsUm96Zr7Zf0ogiGcZZTeyx6inF89oyaPOhmZrCQrzmnD-45NWYnFeKDg_-UTeyMjsz1uQOt_wViFLpfmyG4x8sGX1--TxkaRPRP5O3ULG0PrBX97_nXEzkjBOkXoqL-O_Y12RpyyZI7-q-0yGIAoXVqoNUvEWaP_etkJgjXhzC4bmo0MW5hIRom3dx25B8KHo6w6zgvrpnpeKJet7MpfK6V78fqXz-NZgj2vHqBMbT10KuWCUXSidhhFKerRdJlA.Rkd7dWilRC52rbjf.tcX2VWjoWvJTxzQK6jEDASkCnqHMXKXRjBROcrocdRhTfUXAkdDRRBa6mjlHUf7zQYHFizsM2hC3nZ1Kg4C_1KIh-wcrTlqMGmUnHXFrkRMevS74HVZOZxKY0ZnHFRZvd_CpARQFXcL9l4V0kma65HJHSf-QQprnY-HPa8MR84-4VL_9ghpSwvfajY0f_p-NUuMTmyrgUapvrWZ4vgYceKCcGXgYOJ0aMstiF5bwo0iT4BnLof5Wd4rwRclreLVPkT37wT3dmUKHdViG78z8By1NrP1ALKfLGw2iCSFFssJWVmykJJgLkkQFK0DrtkjhhvmW0HYbcVONpNygTco8jU-uzLJermIof-nXv1bG7XCyEbl5JlWXNBQ44zoZAI7yhgVhTdZaatjWhH2ZDb25gUQYrG6NIri1QFSz0bV9BqPh0MKiGWKaGxqIeT0-Ty9vAnyLKz7BEDaNYyrIHVWXcuEmPdBNMgkxr6UCmJPYM9rJUZrn5xHt7rvx1Ja_kLigV7LibTlROvj3aKUM3oyCyYLNxaQGKTD0h_fhJQ86c-QyFNjnSt_bmncsAL8-8XrzHdKtMG9GEasTw2gRQCT5InxKC38dwCHU_YKGCW9e1GDX6sHhVDKKj3IjzOHj1cFUbLXzYWoXLuvs3Pdqxrc8bdoNFoiIU1Nb8ycCoZquiHcYQ69o5rMI-MD0QuUNabzyz6NDSmtjqW51pWqX7nSyFZt6LNC7k3UMWwZXFRd6fr-Hpee0ao9zgXaqzIL7wCretJcQKRztYGBw0pPbDWjzWw8DVoze2puKMpiRf0bB_MptSJ6COJfJ5qDFsMYBXbRCb4r3oQUnlbhTfA7s-iC_qcSqquzD309OfcFtn2X-Vvwr-ABfnRb_xCmp36pD8vlVihT5knNuIcsbqBdUS_9692B7fGgajAbgavMA7HhCy95rATE2avneF4iB6_vnWTTcDWn2iAGYEqMsf1BFYJfKVPA-617XjhZzgu202awaXFTqIxuMp4OF8H-xNAKy2KFp2RyJ7JqtntQdMjzNg3Hhxpju58tbZVXE4OQZfPldmoA3ao7hSuMhspkBr9tZT8F0oHZt7X50e2Qh4uPcx0aLmf8ePZhWPhJg2h5uFzpkWzuPYvLlDjezXjrs3e5e25CoTbwATKXy7JQN9mIPw6W0QR8oMfaheg3K0mg4GpwBytY0JXf0T9eUYUDsOEe2bjvvjIHMJ7Sy-NJrDOEwmmC63XdlukjB1MPmU_NQx53n1hvJsWjgvSLjV0iLyegXSUn02kZYYdo3WUR11tLQc5lcd7GMRHfobs4W36oYzQOUlUxP2pXKJHjn7swjlQ.CjqysMYqGo4fN8aX22jdiw'
+  }
+}
+[2023-08-10T06:11:03.435] [INFO] default - Time requested at 06:11:03
+[2023-08-10T06:11:03.436] [INFO] default - {
+  url: '/sign-up',
+  error: {
+    statusCode: 400,
+    message: 'An account with the given email already exists.',
+    type: 'UsernameExistsException'
+  }
+}
+[2023-08-10T06:11:10.396] [INFO] default - Time requested at 06:11:10
+[2023-08-10T06:11:10.397] [INFO] default - {
+  url: '/verify',
+  error: {
+    statusCode: 400,
+    message: 'User cannot be confirmed. Current status is CONFIRMED',
+    type: 'NotAuthorizedException'
+  }
+}
+[2023-08-10T06:11:18.248] [INFO] default - Time requested at 06:11:18
+[2023-08-10T06:11:18.249] [INFO] default - {
+  url: '/resend-code',
+  error: {
+    statusCode: 400,
+    message: 'User is already confirmed.',
+    type: 'InvalidParameterException'
+  }
+}
+[2023-08-10T06:12:10.811] [INFO] default - Time requested at 06:12:10
+[2023-08-10T06:12:10.813] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:12:21.641] [INFO] default - Time requested at 06:12:21
+[2023-08-10T06:12:21.642] [INFO] default - {
+  url: '/sign-in',
+  body: {
+    email: 'sibabalwe47@gmail.com',
+    password: 'nodejsreact@@Node@@920429'
+  },
+  result: {
+    statusCode: 200,
+    verified: true,
+    userId: '64f884f8-b041-708b-8604-0306f8939592',
+    email: 'sibabalwe47@gmail.com',
+    token: 'eyJraWQiOiIrbTl0RmxHZUN4ZEUyXC9zc241NFwvVTNIZlhNMmlKaG5DcHdtVVZJQlFySEU9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2NGY4ODRmOC1iMDQxLTcwOGItODYwNC0wMzA2Zjg5Mzk1OTIiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8zd08xWlJubmQiLCJjbGllbnRfaWQiOiI0aHM4NGZwcmVhbHY1YXZwbW9kODVmYWo1MCIsIm9yaWdpbl9qdGkiOiJhMDY5NjNlZS1kMzVmLTRjOWYtODlhZS1lOTJiNmRlNDg3ZGEiLCJldmVudF9pZCI6ImQyZmNlMTEwLWM2MDgtNGNjYi05OWMzLWQ0ZWVlNTljOTVlMSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2OTE2NDA3MzUsImV4cCI6MTY5MTY0NDMzNSwiaWF0IjoxNjkxNjQwNzM1LCJqdGkiOiJhYjgyOTg4Zi00MDI4LTQwZTgtYWY4ZC0yNWFlNmM5OTNmMjMiLCJ1c2VybmFtZSI6IjY0Zjg4NGY4LWIwNDEtNzA4Yi04NjA0LTAzMDZmODkzOTU5MiJ9.l-_QEiIbMJ8350NAPOKKlW4APe32kyMdhIfm3LTwFm4VtS-zlMkBvCf7hhcXlImtvTU8tCvvYlem9p2JpV4Ghn_vnxRk2i8P5oxFK2H7Uhl-e9qyRB0ojb5WGNy1X5apSMvUychlZcFyPZk1tVYMAVn_9THlQIVNiuERrHZWfApjtHRAwgjorzuFb9Dlrv7W6zZkZEN4QhWFsS2u5k9nPPWzWj7HDiC07l1qh0kFN-6YDwQSa2gFbsi3ZN2ovTFYidWM2NnFPmwRujEKCSk1mxV900rSdqJUP96O0Inh4WHcKfBPKAQ5u59NMrB-iOmayCbocc7Csvk-17GdjR1J5A',
+    refreshToken: 'eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.MZJTs8PgqUmHKP21asbnyAf9Q2xZEUznGZDraC-3lOSIQnGxJv8gH4NXRU6t2i2JiGrtZcm20RdNL7IpfYiTE3KtOEbyJqfg5_cr74dE_Nq0yV_9o2woCpqkWWuSmyN0CGLENXZqk6RTlNePEPydbcRuoauiRR5GE_0gbQA_-A5pGUjJDv6zaYJZCLyT53uGxPm6d-RYdi7gZTSisQUMUAgR7V-jqHG91ZFw-iyJQu_g08eiuZXjTpVlxSHTnZ5NBiEja5saU0445-Q3SExnCRL7olg0W6Bl4UxPYv5S9_dLSy5QyGg1u9fjn7QLGNGxnpheUWdUZJ_qkpveWhJL3A.RDqHPlIfVk6qTa-U.V2_agM0abKE7wEB-ejF7eCbcCZfgx6LoWIbnz3gVYfms5wvavSKzLu5AexY4s0Ac6UcFFDckErKRlf8KTpow4XYvjpcT6u9iL41XWaClz-xS_T-aYP3b4djwhBHj8jNaSbPypc2qdGqewGKVEYiJvNCpOGUvAmwmxztRfaLL2kbgPBvu7LSh8vn01rn8PBrzbINrtrj6yO4aPycdV4q5UViMiy_iRxMDL0uqBZcDjOBg-50k5GR_hGzteFS7qHYWmZ-PUFVvhTHQasaA3M82E6H9MtGOdk_mnuOCuwmsJ7hgYORURbedZoVfh8GFoJufzrtmM0VUYvPYywbBDcMfmGfGBGLtUJMRAYJhQnRapLMmHYgM-KMlPP7uVjMJBCosCLUwk5R9JryMZt5z2tSeVSB7jNHwcOEn9vZoupMs_RAwy3gBvJUOuHkSlcU-hdV85q3-DgCgwJY14SXsz1CNZx6dvGJp2MrlzGRX7ve75nZ6byZlOCasXXih_IgeN87Hc45bTfM9CPxjr61d199CfVfLQwCajXlrBcQPWItbdiNrrOYD7vqyNH_dUkCDbhcy7pXzhyqRMkPYp2EZF6M_X-S97GAgTpMFM9PRQgMfbqvGnxjb2mJ6-GqXOL6LI_9MCZJSF0JWCXkBMntES6oRL4w5L7uo82RdYQHkMmRPTNF8SLdBffNSqyyQLRXSh20XpmKycd5nJZHag6TeKCMbO2-1VhX2gsZGN_EhokNIQoNNW9zBM-owWiw0p5wuKG5wF3EyY87BGW4FgtjvONydYzE62oxIHGxmSiYoRxyroODOo0lmnqQ-cHMTT8wrZt3shD9GsXm1PtXntLJjxYkEbCHVqK498DOPRzesnFIcXKuYklN2BM06bEwjNnfickTZJqxn8Nyp28GeIlk2cFJFM6EiBF-iz5QNBSSWz8jfgH_aCLOAGrGZq0AFSOibWp_QQkIS5HjXgBz518gucR0HfXGqbOMtOefMXy0pw41Q860yFTlMLUEDZpCipU2cNpnZs5vrvPasTITEnFBef-c9z3LbMJbtNnBrrj0naNmtsw9H4P0AWuj89cW4QsIfD8Tl6CQWuqpymXJk1qDBnmwoulEZNf3ghfvwg4xQDDhtZpU-oDo7frQ5-tSm33L1sJNRaHZojiVIxbMGsa3RyhQ1PFmVIcOgyDtwdJr9J9TPIKdNwMgYfbR9SXuu4O--dIY9d-nLsdh2_PqLs0p4jr_IvYr3gXKBRjYBz31uhsuixuMYAbpPHodT69b8f8uhXzzxk6-_cezuJ7wjplOcvVbNDxp7hKpgn8p33De7gugtSYFuANrxEl3X1O2MQA.bMhp1QzetZBIyxxPIfQVPg'
+  }
+}
+[2023-08-10T06:12:41.174] [INFO] default - Time requested at 06:12:41
+[2023-08-10T06:12:41.176] [INFO] default - {
+  url: '/sign-up',
+  error: {
+    statusCode: 400,
+    message: 'An account with the given email already exists.',
+    type: 'UsernameExistsException'
+  }
+}
+[2023-08-10T06:13:09.523] [INFO] default - Time requested at 06:13:09
+[2023-08-10T06:13:09.524] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:13:21.568] [INFO] default - Time requested at 06:13:21
+[2023-08-10T06:13:21.569] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:13:41.787] [INFO] default - Time requested at 06:13:41
+[2023-08-10T06:13:41.788] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:13:54.049] [INFO] default - Time requested at 06:13:54
+[2023-08-10T06:13:54.052] [INFO] default - Server running on PORT:3000
+[2023-08-10T06:14:12.869] [INFO] default - Time requested at 06:14:12
+[2023-08-10T06:14:12.870] [INFO] default - {
+  url: '/sign-up',
+  body: { email: 'siba2000@live.com', password: 'nodejsreact@@Node920429' },
+  error: {
+    statusCode: 400,
+    message: 'An account with the given email already exists.',
+    type: 'UsernameExistsException'
+  }
+}
+[2023-08-10T06:15:12.380] [INFO] default - Time requested at 06:15:12
+[2023-08-10T06:15:12.381] [INFO] default - [
+  {
+    ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+    DataType: 'text',
+    LastModifiedDate: 2023-08-08T03:42:18.097Z,
+    Name: '/dev/dynamodb/arn',
+    Type: 'String',
+    Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    Version: 1
+  },
+  {
+    ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+    DataType: 'text',
+    LastModifiedDate: 2023-08-08T03:42:18.093Z,
+    Name: '/dev/dynamodb/name',
+    Type: 'String',
+    Value: 'sessions',
+    Version: 1
+  },
+  {
+    ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+    DataType: 'text',
+    LastModifiedDate: 2023-08-08T04:49:41.398Z,
+    Name: '/dev/environment/region',
+    Type: 'String',
+    Value: 'us-east-1',
+    Version: 2
+  },
+  {
+    ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+    DataType: 'text',
+    LastModifiedDate: 2023-08-08T04:49:02.516Z,
+    Name: '/dev/userpool/id',
+    Type: 'String',
+    Value: 'us-east-1_3wO1ZRnnd',
+    Version: 1
+  },
+  {
+    ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+    DataType: 'text',
+    LastModifiedDate: 2023-08-08T04:49:02.528Z,
+    Name: '/dev/userpool_client/id',
+    Type: 'String',
+    Value: '4hs84fprealv5avpmod85faj50',
+    Version: 1
+  }
+]
+[2023-08-10T06:15:12.389] [INFO] default - Time requested at 06:15:12
+[2023-08-10T06:15:12.390] [INFO] default - Server running on PORT:3000

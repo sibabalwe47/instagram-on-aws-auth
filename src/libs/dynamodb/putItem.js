@@ -31,7 +31,6 @@ export const putItemHandler = async (item) => {
       success: true,
     };
   } catch (error) {
-    console.log("Error::", error);
     throw {
       statusCode: error["$metadata"].httpStatusCode,
       message: error && error.message ? error.message : "Unknown error.",

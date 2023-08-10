@@ -27,7 +27,6 @@ export const getItemHandler = async (token) => {
       },
     };
   } catch (error) {
-    console.log("Error::", error);
     throw {
       statusCode: error["$metadata"].httpStatusCode,
       message: error && error.message ? error.message : "Unknown error.",

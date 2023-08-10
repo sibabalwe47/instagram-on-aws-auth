@@ -17,8 +17,6 @@ export const remoteItemHandler = async (token) => {
       })
     );
 
-    console.log("RESULT::", result);
-
     return {
       statusCode: result["$metadata"].httpStatusCode,
       //   item: {
@@ -29,7 +27,6 @@ export const remoteItemHandler = async (token) => {
       //   },
     };
   } catch (error) {
-    console.log("Error::", error);
     throw {
       statusCode: error["$metadata"].httpStatusCode,
       message: error && error.message ? error.message : "Unknown error.",

@@ -15,10 +15,11 @@ app.use(bodyParser.json());
 config({ path: "../.env" });
 
 // Routes
-import route from "./routes/v1/auth.route.js";
-
+import authRoutes from "./routes/v1/auth.route.js";
+import logRoutes from "./routes/v1/logs.route.js";
 // Paths
-app.use(`/api/v1/auth`, route);
+app.use(`/api/v1/auth`, authRoutes);
+app.use(`/api/v1/logs`, logRoutes);
 
 app.listen(process.env.PORT, async () => {
   startup.initialise();

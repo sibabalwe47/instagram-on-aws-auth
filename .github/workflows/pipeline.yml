@@ -37,8 +37,13 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws-auth:latest
 
-      - name: push to ECR
-        run: apk add aws-cli \
+      - name: Install AWS CLI v2
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o /tmp/awscliv2.zip
+          unzip -q /tmp/awscliv2.zip -d /tmp
+          rm /tmp/awscliv2.zip
+          sudo /tmp/aws/install --update
+          rm -rf /tmp/aws/
           aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 403052689884.dkr.ecr.eu-west-1.amazonaws.com/instagram-on-aws-auth
           docker build -t 403052689884.dkr.ecr.eu-west-1.amazonaws.com/instagram-on-aws-auth .
           docker push 403052689884.dkr.ecr.eu-west-1.amazonaws.com/instagram-on-aws-auth:latest

@@ -35,7 +35,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws-auth:${{ env.GITHUB_SHA }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws-auth:${GITHUB_SHA}
 
       - name: Install AWS CLI v2
         run: |
@@ -46,4 +46,4 @@ jobs:
           rm -rf /tmp/aws/
           aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth
           docker build -t $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth .
-          docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth:${{ env.GITHUB_SHA }}
+          docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth:$GITHUB_SHA

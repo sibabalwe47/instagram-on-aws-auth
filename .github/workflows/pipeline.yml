@@ -46,4 +46,4 @@ jobs:
           rm -rf /tmp/aws/
           aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth
           docker build -t $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth .
-          docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth:latest
+          docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth:$GITHUB_SHA

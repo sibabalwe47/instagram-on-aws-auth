@@ -36,7 +36,7 @@ const cacheConfigurationParameters = (parameters) => {
   });
 
   //fs.writeFileSync("../.env", newVariables.join(os.EOL));
-  fs.writeFile("../.env", newVariables.join(os.EOL), (err) => {
+  fs.writeFile("../.env", newVariables.join(os.EOL).toString(), (err) => {
     if (err) {
       Logger.writeLog({
         source: "Writing .env file",

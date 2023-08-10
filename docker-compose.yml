@@ -9,6 +9,10 @@ services:
     restart: unless-stopped
     env_file: .env
     environment:
+      - PORT=4000
+      - ENVIRONMENT=dev
+      - API_VERSION=1
+      - ENVIRONMENT_REGION=us-east-1
       - AWS_ACCESS_KEY_ID=AKIAVUA75GJ4QVTQ5GXW
       - AWS_SECRET_ACCESS_KEY=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
     ports:

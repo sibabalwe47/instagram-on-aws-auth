@@ -35,7 +35,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws-auth:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/instagram-on-aws-auth:$GITHUB_SHA
 
       - name: Install AWS CLI v2
         run: |

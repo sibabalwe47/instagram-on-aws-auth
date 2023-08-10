@@ -234,3 +234,545 @@
 [2023-08-10T06:15:12.390] [INFO] default - Server running on PORT:3000
 [2023-08-10T06:15:29.206] [INFO] default - Time requested at 06:15:29
 [2023-08-10T06:15:29.208] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:08:31.054] [INFO] default - Time requested at 07:08:31
+[2023-08-10T07:08:31.056] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:10:02.968] [INFO] default - Time requested at 07:10:02
+[2023-08-10T07:10:02.970] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:10:02.981] [INFO] default - Time requested at 07:10:02
+[2023-08-10T07:10:02.982] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:10:02.984] [INFO] default - Time requested at 07:10:02
+[2023-08-10T07:10:02.985] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:10:31.488] [INFO] default - Time requested at 07:10:31
+[2023-08-10T07:10:31.489] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:10:31.496] [INFO] default - Time requested at 07:10:31
+[2023-08-10T07:10:31.496] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:10:31.497] [INFO] default - Time requested at 07:10:31
+[2023-08-10T07:10:31.498] [INFO] default - {
+  source: 'existing variables',
+  exists: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'ENVIRONMENT_REGION=us-east-1',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:10:31.501] [INFO] default - Time requested at 07:10:31
+[2023-08-10T07:10:31.502] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:10:34.738] [INFO] default - Time requested at 07:10:34
+[2023-08-10T07:10:34.739] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:10:34.751] [INFO] default - Time requested at 07:10:34
+[2023-08-10T07:10:34.751] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:10:34.753] [INFO] default - Time requested at 07:10:34
+[2023-08-10T07:10:34.753] [INFO] default - {
+  source: 'existing variables',
+  vars: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'ENVIRONMENT_REGION=us-east-1',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:10:34.758] [INFO] default - Time requested at 07:10:34
+[2023-08-10T07:10:34.758] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:10:48.184] [INFO] default - Time requested at 07:10:48
+[2023-08-10T07:10:48.185] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:10:48.195] [INFO] default - Time requested at 07:10:48
+[2023-08-10T07:10:48.196] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:10:48.197] [INFO] default - Time requested at 07:10:48
+[2023-08-10T07:10:48.198] [INFO] default - {
+  source: 'existing variables',
+  vars: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:10:48.200] [INFO] default - Time requested at 07:10:48
+[2023-08-10T07:10:48.201] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:14:39.003] [INFO] default - Time requested at 07:14:39
+[2023-08-10T07:14:39.005] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:14:39.012] [INFO] default - Time requested at 07:14:39
+[2023-08-10T07:14:39.012] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:14:39.013] [INFO] default - Time requested at 07:14:39
+[2023-08-10T07:14:39.014] [INFO] default - {
+  source: 'existing variables',
+  vars: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:14:39.016] [INFO] default - Time requested at 07:14:39
+[2023-08-10T07:14:39.016] [INFO] default - The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Array
+[2023-08-10T07:14:54.862] [INFO] default - Time requested at 07:14:54
+[2023-08-10T07:14:54.863] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:14:54.876] [INFO] default - Time requested at 07:14:54
+[2023-08-10T07:14:54.876] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:14:54.877] [INFO] default - Time requested at 07:14:54
+[2023-08-10T07:14:54.878] [INFO] default - {
+  source: 'existing variables',
+  vars: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:14:54.882] [INFO] default - Time requested at 07:14:54
+[2023-08-10T07:14:54.882] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:15:08.912] [INFO] default - Time requested at 07:15:08
+[2023-08-10T07:15:08.913] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:15:08.922] [INFO] default - Time requested at 07:15:08
+[2023-08-10T07:15:08.923] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:15:08.924] [INFO] default - Time requested at 07:15:08
+[2023-08-10T07:15:08.925] [INFO] default - {
+  source: 'existing variables',
+  vars: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:15:08.928] [INFO] default - Time requested at 07:15:08
+[2023-08-10T07:15:08.928] [INFO] default - Server running on PORT:3000
+[2023-08-10T07:15:44.929] [INFO] default - Time requested at 07:15:44
+[2023-08-10T07:15:44.930] [INFO] default - {
+  parameters: [
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/arn',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.097Z,
+      Name: '/dev/dynamodb/arn',
+      Type: 'String',
+      Value: 'arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/dynamodb/name',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T03:42:18.093Z,
+      Name: '/dev/dynamodb/name',
+      Type: 'String',
+      Value: 'sessions',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/environment/region',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:41.398Z,
+      Name: '/dev/environment/region',
+      Type: 'String',
+      Value: 'us-east-1',
+      Version: 2
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.516Z,
+      Name: '/dev/userpool/id',
+      Type: 'String',
+      Value: 'us-east-1_3wO1ZRnnd',
+      Version: 1
+    },
+    {
+      ARN: 'arn:aws:ssm:us-east-1:386613981817:parameter/dev/userpool_client/id',
+      DataType: 'text',
+      LastModifiedDate: 2023-08-08T04:49:02.528Z,
+      Name: '/dev/userpool_client/id',
+      Type: 'String',
+      Value: '4hs84fprealv5avpmod85faj50',
+      Version: 1
+    }
+  ]
+}
+[2023-08-10T07:15:44.939] [INFO] default - Time requested at 07:15:44
+[2023-08-10T07:15:44.940] [INFO] default - { source: 'env_file', exists: true }
+[2023-08-10T07:15:44.941] [INFO] default - Time requested at 07:15:44
+[2023-08-10T07:15:44.942] [INFO] default - {
+  source: 'existing variables',
+  vars: [
+    'PORT=3000',
+    'ENVIRONMENT=dev',
+    'API_VERSION=1',
+    'ENVIRONMENT_REGION=us-east-1',
+    'DYNAMODB_ARN=arn:aws:dynamodb:us-east-1:386613981817:table/sessions',
+    'DYNAMODB_NAME=sessions',
+    'USERPOOL_ID=us-east-1_3wO1ZRnnd',
+    'USERPOOL_CLIENT_ID=4hs84fprealv5avpmod85faj50'
+  ]
+}
+[2023-08-10T07:15:44.945] [INFO] default - Time requested at 07:15:44
+[2023-08-10T07:15:44.945] [INFO] default - Server running on PORT:3000

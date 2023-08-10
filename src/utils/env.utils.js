@@ -1,9 +1,17 @@
 import fs from "fs";
 import os from "os";
+import * as Logger from "./logger.js";
 
 const cacheConfigurationParameters = (parameters) => {
+  Logger.writeLog({
+    parameters: parameters,
+  });
   let existingVariables = [];
 
+  Logger.writeLog({
+    source: "env_file",
+    exists: fs.existsSync("../.env") ? true : false,
+  });
   if (fs.existsSync("../.env")) {
     existingVariables = fs
       .readFileSync("../.env", "utf8")
@@ -22,7 +30,20 @@ const cacheConfigurationParameters = (parameters) => {
 
   const newVariables = [...new Set(existingVariables)];
 
-  fs.writeFileSync("../.env", newVariables.join(os.EOL));
+  Logger.writeLog({
+    source: "existing variables",
+    vars: newVariables,
+  });
+
+  //fs.writeFileSync("../.env", newVariables.join(os.EOL));
+  fs.writeFile("../.env", newVariables.join(os.EOL), (err) => {
+    if (err) {
+      Logger.writeLog({
+        source: "Writing .env file",
+        error: err,
+      });
+    }
+  });
 };
 
 export default { cacheConfigurationParameters };

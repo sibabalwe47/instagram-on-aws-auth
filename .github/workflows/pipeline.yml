@@ -10,7 +10,7 @@ env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   AWS_REGION: ${{ secrets.AWS_REGION }}
-
+  AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
 jobs:
   push_to_docker_hub:
     runs-on: ubuntu-latest
@@ -44,6 +44,6 @@ jobs:
           rm /tmp/awscliv2.zip
           sudo /tmp/aws/install --update
           rm -rf /tmp/aws/
-          aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin 386613981817.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth
-          docker build -t 386613981817.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth .
-          docker push 386613981817.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth:latest
+          aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth
+          docker build -t $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth .
+          docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/instagram-on-aws-auth:latest
